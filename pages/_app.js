@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         <Link href="/">
           <a>
             <h2 className="text-5xl font-bold text-white">
-              Meu blog
+              Blog
             </h2>
           </a>
         </Link>
