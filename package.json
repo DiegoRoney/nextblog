@@ -1,8 +1,10 @@
 {
   "name": "nextblog",
   "version": "0.1.0",
-  "homepage": "nextblog/",
+  "homepage": "https://diegoroney.github.io/nextblog",  
   "private": true,
+  "predeploy": "yarn run build",
+  "deploy": "gh-pages -d build",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
