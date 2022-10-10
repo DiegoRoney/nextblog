@@ -2,13 +2,13 @@
   "name": "nextblog",
   "version": "0.1.0",
   "homepage": "https://diegoroney.github.io/nextblog",  
-  "private": true,
-  "predeploy": "yarn run build",
-  "deploy": "gh-pages -d build",
+  "private": true,  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "yarn run build",
+  "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
